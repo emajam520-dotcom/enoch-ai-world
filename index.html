@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ENOCH AI WORLD</title>
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#080d1c;
+color:white;
+line-height:1.6
+}
+header{
+padding:22px 15px;
+background:#111a32;
+text-align:center;
+border-bottom:1px solid #293b64
+}
+.logo{font-size:25px;font-weight:bold;color:#a5b4fc}
+header p{margin:5px;color:#cbd5e1}
+nav{padding:15px;text-align:center}
+nav a{
+color:white;text-decoration:none;
+margin:7px;font-size:14px
+}
+.hero{
+text-align:center;padding:55px 20px 40px;
+background:linear-gradient(135deg,#101d43,#32145d)
+}
+.hero h1{font-size:35px;line-height:1.2}
+.hero h1 span{color:#a5b4fc}
+.hero p{color:#e2e8f0;max-width:500px;margin:20px auto}
+.button{
+display:inline-block;background:#818cf8;
+color:#080d1c;padding:12px 20px;
+border-radius:9px;text-decoration:none;
+font-weight:bold;margin:5px
+}
+section{padding:30px 17px;max-width:1000px;margin:auto}
+h2{color:#c4b5fd}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px
+}
+.card{
+background:#121b31;padding:20px;
+border:1px solid #283653;
+border-radius:14px
+}
+.card h3{color:#a5b4fc;margin-top:5px}
+.card a{color:#c4b5fd}
+.card p{color:#cbd5e1}
+.badge{font-size:28px}
+.search{
+width:100%;padding:14px;border-radius:9px;
+border:1px solid #475569;background:#111827;
+color:white;font-size:16px;margin:10px 0 20px
+}
+footer{
+text-align:center;background:#111a32;
+padding:25px;color:#cbd5e1
+}
+footer strong{color:#a5b4fc}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">🌍 ENOCH AI WORLD</div>
+<p>Discover AI. Learn Skills. Create Your Future.</p>
+</header>
+
+<nav>
+<a href="#tools">AI Tools</a>
+<a href="#learn">Learn</a>
+<a href="#mission">Our Mission</a>
+</nav>
+
+<div class="hero">
+<h1>Welcome to <span>ENOCH AI WORLD</span></h1>
+<p>
+Explore artificial intelligence, discover useful tools,
+learn digital skills and unlock your creativity.
+Your journey into the world of AI starts here!
+</p>
+<a class="button" href="#tools">Explore AI Tools 🚀</a>
+<a class="button" href="#learn">Start Learning 📚</a>
+</div>
+
+<section id="tools">
+<h2>🤖 Discover AI Tools</h2>
+<p>Explore tools that can help you create, learn and work smarter.</p>
+
+<input class="search" id="search"
+placeholder="Search AI tools..." oninput="filterCards()">
+
+<div class="grid" id="toolGrid">
+
+<div class="card searchable">
+<div class="badge">🎬</div>
+<h3>Google Flow</h3>
+<p>Explore AI-powered video and filmmaking tools.</p>
+<a href="https://labs.google/fx/tools/flow" target="_blank">Explore Flow →</a>
+</div>
+
+<div class="card searchable">
+<div class="badge">🖼️</div>
+<h3>Canva</h3>
+<p>Create designs, presentations and visual content.</p>
+<a href="https://www.canva.com/" target="_blank">Explore Canva →</a>
+</div>
+
+<div class="card searchable">
+<div class="badge">💻</div>
+<h3>GitHub</h3>
+<p>Learn coding and build your own digital projects.</p>
+<a href="https://github.com/" target="_blank">Explore GitHub →</a>
+</div>
+
+<div class="card searchable">
+<div class="badge">🧠</div>
+<h3>ChatGPT</h3>
+<p>Explore AI assistance for writing, learning and ideas.</p>
+<a href="https://chatgpt.com/" target="_blank">Explore ChatGPT →</a>
+</div>
+
+<div class="card searchable">
+<div class="badge">🎨</div>
+<h3>Adobe Express</h3>
+<p>Discover creative tools for graphics and content.</p>
+<a href="https://www.adobe.com/express/" target="_blank">Explore Adobe →</a>
+</div>
+
+<div class="card searchable">
+<div class="badge">🎓</div>
+<h3>Khan Academy</h3>
+<p>Study subjects and develop useful knowledge for free.</p>
+<a href="https://www.khanacademy.org/" target="_blank">Start Learning →</a>
+</div>
+
+</div>
+</section>
+
+<section id="learn">
+<h2>📚 Free Digital Skills Academy</h2>
+<div class="grid">
+<div class="card">
+<h3>🎬 AI Video Creation</h3>
+<p>Discover how AI can help you make videos and tell stories.</p>
+<a href="https://www.youtube.com/" target="_blank">Find Free Tutorials →</a>
+</div>
+<div class="card">
+<h3>🌐 Website Design</h3>
+<p>Begin learning how websites are designed and built.</p>
+<a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank">Learn Web Design →</a>
+</div>
+<div class="card">
+<h3>📱 Content Creation</h3>
+<p>Learn about digital storytelling, creativity and publishing.</p>
+<a href="https://www.youtube.com/" target="_blank">Find Free Lessons →</a>
+</div>
+</div>
+</section>
+
+<section id="mission">
+<div class="card">
+<h2>🌍 Our Mission</h2>
+<p>
+ENOCH AI WORLD exists to make artificial intelligence
+and digital education easier to discover and understand.
+We want people everywhere to explore new skills,
+express their creativity and find opportunities to grow.
+</p>
+<p><strong>Technology for everyone. Opportunities for everyone.</strong></p>
+</div>
+</section>
+
+<footer>
+<strong>ENOCH AI WORLD</strong>
+<p>Discover AI. Learn Skills. Create Your Future.</p>
+<p>Created by Enoch | Built to inspire the world 🌍</p>
+<p>Educational resource directory. Third-party tools have
+their own terms, features and pricing.</p>
+<p>© 2026 ENOCH AI WORLD</p>
+</footer>
+
+<script>
+function filterCards(){
+const query=document.getElementById("search").value.toLowerCase();
+document.querySelectorAll(".searchable").forEach(card=>{
+card.style.display=card.innerText.toLowerCase().includes(query)
+?"block":"none";
+});
+}
+</script>
+
+</body>
+</html>
